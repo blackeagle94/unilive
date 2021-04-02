@@ -1,0 +1,150 @@
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */
+
+.city {
+  height: auto;
+  width: 500px;
+  margin: 20px;
+  background-color: white;
+  font-family: Roboto;
+  border-radius: 3px;
+}
+.city:hover {
+  transform: scale(1.03, 1.03);
+  transition: all 0.2s ease-in-out;
+}
+.buttons p {
+  padding: 20px;
+}
+
+.home-img {
+  width: 100%;
+  margin: none;
+  font-family: Roboto;
+  padding: none;
+}
+.rent-area {
+  background-color: #03c5f0;
+  height: 40px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Roboto;
+  /* flex-direction: column; */
+}
+.bedroom-area {
+  background-color: white;
+  height: auto;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  font-size: 17px;
+  font-family: Roboto;
+}
+
+.address-area {
+  background-color: white;
+  height: auto;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  font-size: 15px;
+  font-family: Roboto;
+}
+.bed-icon {
+  fill: white;
+  padding-top: 6px;
+  margin-left: 20px;
+}
+.rent-text {
+  font-size: 20px;
+  padding: 0;
+  padding-left: 20px;
+}
+.rent-span {
+  font-size: 27px;
+}
+
+.buttons {
+  height: 50;
+  display: flex;
+  border-top: solid 1px #e5e5e5;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto;
+}
+.shortlist-btn {
+  flex: 6;
+  height: auto;
+  border-right: solid 1px #e5e5e5;
+  font-size: 24px;
+  text-align: center;
+  font-family: Roboto;
+  cursor: pointer;
+}
+
+.shortlist-btn .add-btn {
+  display: none;
+}
+.shortlist-btn:hover .short-btn {
+  display: none;
+}
+.shortlist-btn:hover .add-btn {
+  display: inline;
+  color: red;
+}
+.shortlist-btn:hover .heart-icon {
+  fill: red;
+}
+
+.view-btn {
+  flex: 6;
+  height: auto;
+  font-size: 24px;
+  text-align: center;
+  font-family: Roboto;
+  cursor: pointer;
+  color: inherit;
+}
+.remove-btn {
+  flex: 6;
+  height: auto;
+  font-size: 24px;
+  text-align: center;
+  font-family: Roboto;
+  color: red;
+  cursor: pointer;
+}
+
+@media (max-width: 360px) {
+  .rent-area {
+    background-color: #03c5f0;
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Roboto;
+    /* flex-direction: column; */
+  }
+  .rent-text {
+    font-size: 15px;
+  }
+  .shortlist-btn {
+    font-size: 18px;
+  }
+  .view-btn {
+    font-size: 18px;
+  }
+  .rent-span {
+    font-size: 18px;
+  }
+}

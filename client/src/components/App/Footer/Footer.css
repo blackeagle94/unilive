@@ -1,0 +1,161 @@
+* {
+	box-sizing: border-box;
+}
+
+.keepintouch-sm {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: auto;
+	background-color: rgb(0, 191, 255);
+	font-size: 36px;
+	padding: 30px;
+}
+
+.footer-title {
+	/* padding-left: 138px; */
+	text-align: center;
+	margin: 0 auto;
+	font-size: 36px;
+	font-family: Roboto;
+	color: white;
+	font-weight: 400;
+}
+
+#form-keepintouch {
+	display: inline-block;
+}
+
+#input-keepintouch {
+	margin-top: 20px;
+	margin-left: 28px;
+	width: 460px;
+	height: 58px;
+	background-color: #00a2e1;
+	border: 0ch;
+	padding-left: 15px;
+	color: white;
+	font-size: 20px;
+	border-radius: 5px;
+}
+
+#btn-keepintouch {
+	height: 60px;
+	width: 50px;
+	background-color: #00a2e1;
+	border: none;
+	color: white;
+}
+
+#input-keepintouch::placeholder {
+	color: white;
+	font-size: 24px;
+	padding-left: 10px;
+}
+
+#social-media {
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+}
+
+.sm-icons {
+	text-align: center;
+	margin-top: 20px;
+}
+
+#nav-footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: auto;
+	background: #e5e5e5;
+	margin-top: 0;
+	padding: 20px 0;
+}
+
+#nav-footer > nav > ul > li {
+	list-style: none;
+	display: inline;
+	margin-right: 80px;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: Roboto;
+}
+
+#nav-footer > nav > ul > li > a {
+	text-decoration: none;
+	font-family: Roboto;
+	color: black;
+}
+
+@media (max-width: 1024px) {
+	#nav-footer {
+		padding: 15px 0;
+	}
+
+	#nav-footer > nav > ul > li {
+		margin-right: 50px;
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 768px) {
+	#input-keepintouch {
+		width: 350px;
+	}
+	.footer-title {
+		font-size: 32px;
+	}
+	#nav-footer > nav > ul > li {
+		margin-right: 20px;
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 360px) {
+	#input-keepintouch {
+		margin: 5px;
+		width: 150px;
+		height: 32px;
+		padding-left: 8px;
+		font-size: 10px;
+	}
+	#input-keepintouch::placeholder {
+		font-size: 10px;
+		padding-left: 5px;
+	}
+	.footer-title {
+		font-size: 19px;
+	}
+
+	.sm-icons {
+		display: flex;
+		margin-top: 15px;
+		margin-left: 0px;
+		height: 34px;
+	}
+
+	#keepintouch {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin-right: 10px;
+	}
+
+	#nav-footer {
+		padding: 5px 0;
+	}
+
+	#nav-footer > nav > ul {
+		margin: 0px;
+		padding: 0px;
+	}
+
+	#nav-footer > nav > ul > li {
+		margin-right: 8px;
+		font-size: 7px;
+	}
+}
